@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="795ff907-586a-4b23-a393-7b48f204b8ab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring_study" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring_study" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1gXfHHQlT7177YYrd2T8yDLRd0C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MemoryMemberRepositoryTest.findAll">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryMemberRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_study.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.spring_study.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.spring_study.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.spring_study.repository.MemoryMemberRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryMemberRepositoryTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_study.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.spring_study.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.spring_study.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.spring_study.repository.MemoryMemberRepositoryTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring_study.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring_study.SpringStudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MemoryMemberRepositoryTest.findAll" />
+        <item itemvalue="JUnit.MemoryMemberRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="795ff907-586a-4b23-a393-7b48f204b8ab" name="Default Changelist" comment="" />
+      <created>1598265777961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598265777961</updated>
+      <workItem from="1598265781297" duration="5809000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="636" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598267384741">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="636" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777@0.23.1280.777" timestamp="1598267384741" />
+    <state x="755" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1598270606868">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="755" y="102" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1598270606868" />
+    <state width="699" height="212" key="GridCell.Tab.0.bottom" timestamp="1598272894949">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="699" height="212" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1598272894949" />
+    <state width="699" height="212" key="GridCell.Tab.0.center" timestamp="1598272894947">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="699" height="212" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1598272894947" />
+    <state width="699" height="212" key="GridCell.Tab.0.left" timestamp="1598272894943">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="699" height="212" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1598272894943" />
+    <state width="699" height="212" key="GridCell.Tab.0.right" timestamp="1598272894948">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="699" height="212" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1598272894948" />
+    <state width="699" height="212" key="GridCell.Tab.1.bottom" timestamp="1598271578868">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="699" height="212" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1598271578868" />
+    <state width="699" height="212" key="GridCell.Tab.1.center" timestamp="1598271578867">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="699" height="212" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1598271578867" />
+    <state width="699" height="212" key="GridCell.Tab.1.left" timestamp="1598271578866">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="699" height="212" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1598271578866" />
+    <state width="699" height="212" key="GridCell.Tab.1.right" timestamp="1598271578867">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="699" height="212" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1598271578867" />
+    <state x="149" y="39" key="SettingsEditor" timestamp="1598266122661">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1598266122661" />
+    <state x="647" y="167" key="extract.method.dialog" timestamp="1598272331578">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="647" y="167" key="extract.method.dialog/0.23.1280.777@0.23.1280.777" timestamp="1598272331578" />
+    <state x="574" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1598271813099">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="574" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1598271813099" />
+  </component>
+</project>
