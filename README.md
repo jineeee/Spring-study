@@ -34,10 +34,9 @@
 - model을 이용해 requestParam으로 넘어온 name 값을 key, value 쌍의 형태로 view에 전달
 - view에서는 name이라는 key의 value를 찾아 띄움
 
-실행 구조
+##### 실행구조
 
 <img width="551" alt="image-20200824225551587" src="https://user-images.githubusercontent.com/37479631/91061158-cdade600-e666-11ea-8789-d905f294fce6.png">
-
 
 
 #### 2. API
@@ -69,7 +68,6 @@ public String helloString(@RequestParam("name") String name){
 - requestParam으로 넘어온 name 값을 응답 바디에 담아 문자열을 리턴
 
 
-
 ##### - @ResponseBody 객체 반환
 
 ##### Controller
@@ -98,8 +96,7 @@ static class Hello{
 - requstParam으로 받은 객체를 이용해 Hello 객체 생성 후 JSON 객체로 응답바디에 담아 반환
 
 
-
-##### - @ResponseBody의 사용원리
+##### - @ResponseBody의 실행구조
 
 <img width="553" alt="image-20200824233306670" src="https://user-images.githubusercontent.com/37479631/91061197-d999a800-e666-11ea-8f27-7372ac309716.png">
 
@@ -111,7 +108,6 @@ static class Hello{
 - 이외에도 여러가지 HttpMessageConverter가 기본으로 등록되어 있어 여러 타입의 반환값을 처리
 
 
-
 #### 3. Test
 
 - JUnit이라는 프레임워크로 테스트 실행
@@ -120,6 +116,6 @@ static class Hello{
 - **@BeforeEach** : 테스트가 실행되기 전 실행되야하는 함수에 붙는 어노테이션, 테스트 간의 서로 영향이 없도록 새로운 객체를 생성하는 등의 역할
 - **@AfterEach** : 각 테스트가 종료할 때 마다 실행될 함수에 붙는 어노테이션, DB에 저장된 더미 데이터를 삭제하는 등의 역할
 
-
+<br>
 
 ### 📗 WEEK 3
