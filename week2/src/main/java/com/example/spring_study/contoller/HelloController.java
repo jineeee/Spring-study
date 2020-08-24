@@ -24,16 +24,16 @@ public class HelloController {
     @GetMapping("hello-string")
     @ResponseBody
     public String helloString(@RequestParam("name") String name){
-        return "hello" + name;
+        return name;
     }
 
     // api 방식
     @GetMapping("hello-api")
     @ResponseBody // http의 body에 문자 내용을 직접 반환
-    public String helloAPI(@RequestParam("name") String name){
+    public Hello helloAPI(@RequestParam("name") String name){
         Hello hello = new Hello();
         hello.setName(name);
-        return name;
+        return hello;
     }
 
     static class Hello{
@@ -42,7 +42,6 @@ public class HelloController {
         public String getName() {
             return name;
         }
-
         public void setName(String name) {
             this.name = name;
         }
