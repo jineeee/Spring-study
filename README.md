@@ -6,7 +6,7 @@
 
 - MVC : Mode, View, Controller 로 구성되어 뷰와 비지니스 로직을 분리
 
-#####Controller
+##### Controller
 
 ```java
 @Controller
@@ -19,7 +19,7 @@
 }
 ```
 
-#####View
+##### View
 
 ```html
 <html xmlns:th="http://www.thymeleaf.org">
@@ -36,15 +36,15 @@
 
 실행 구조
 
-![image-20200824225551587](/Users/jinee/Library/Application Support/typora-user-images/image-20200824225551587.png)
+<img width="551" alt="image-20200824225551587" src="https://user-images.githubusercontent.com/37479631/91061158-cdade600-e666-11ea-8789-d905f294fce6.png">
 
 
 
 #### 2. API
 
-#####- @ResponseBody 문자 반환
+##### - @ResponseBody 문자 반환
 
-#####Controller
+##### Controller
 
 ```
 @GetMapping("hello-string")
@@ -54,7 +54,7 @@ public String helloString(@RequestParam("name") String name){
 }
 ```
 
-#####View
+##### View
 
 ```html
 <html xmlns:th="http://www.thymeleaf.org">
@@ -101,7 +101,8 @@ static class Hello{
 
 ##### - @ResponseBody의 사용원리
 
-![image-20200824233306670](/Users/jinee/Library/Application Support/typora-user-images/image-20200824233306670.png)
+<img width="553" alt="image-20200824233306670" src="https://user-images.githubusercontent.com/37479631/91061197-d999a800-e666-11ea-8f27-7372ac309716.png">
+
 
 - HTTP의 응답 body에 return 내용을 직접 반환
 - viewResolver 대신 HttpMessageConverter가 동작
@@ -121,4 +122,4 @@ static class Hello{
 
 
 
-###📗 WEEK 3
+### 📗 WEEK 3
