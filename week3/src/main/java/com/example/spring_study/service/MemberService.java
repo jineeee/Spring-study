@@ -3,7 +3,8 @@ package com.example.spring_study.service;
 import com.example.spring_study.domain.Member;
 import com.example.spring_study.repository.MemberRepository;
 import com.example.spring_study.repository.MemoryMemberRepository;
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
@@ -11,7 +12,6 @@ public class MemberService {
 
     private final MemberRepository repository;
 
-    // 생성자로 repository를 주입받음
     public MemberService(MemberRepository repository) {
         this.repository = repository;
     }

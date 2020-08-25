@@ -1,30 +1,26 @@
 package com.example.spring_study.service;
 
 import com.example.spring_study.domain.Member;
+import com.example.spring_study.repository.MemberRepository;
 import com.example.spring_study.repository.MemoryMemberRepository;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.annotation.Transactional;
 
-import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class MemberServiceTest {
+@SpringBootTest
+@Transactional
+class MemberServiceIntegrationTest {
 
-    MemoryMemberRepository repository;
+    @Autowired
+    MemberRepository repository;
+    @Autowired
     MemberService service;
-
-    @BeforeEach
-    public void beforeEach(){
-        repository = new MemoryMemberRepository();
-        service = new MemberService(repository); // 생성자로 repository를 넣어 주입하며 service 객체 생성
-    }
-
-    @AfterEach
-    public void afterEach(){
-        repository.clearStore();
-    }
 
     @Test
     void join() {
